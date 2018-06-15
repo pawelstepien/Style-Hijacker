@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+        <title>Style hijacker</title>
+        <link rel="stylesheet"type="text/css" href="./style.css">
+    </head>
+    <body>
+        <div class="container">
+            <section class="input">
+                <form id="input-form" action="/">
+                    <textarea type="textarea" name="css-input" placeholder="Place clients css here"></textarea>
+                    <textarea type="textarea" name="html-input" placeholder="Place our frames outerHTML here"></textarea>
+                    <input type="text" name="prefix" placeholder="prefix">
+                    <input type="submit" value="Start magic">
+                </form>
+            </section>
+            <section class="output">
+                <textarea type="textarea" name="html-input" placeholder="Output"></textarea>
+            </section>
+        </div>
+        <script type="text/javascript" src="./style hijacker.js">
+
+        </script>
+    </body>
+</html>
