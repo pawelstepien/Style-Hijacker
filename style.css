@@ -16,3 +16,6 @@
     display: block;
     padding: 20px;
 }
+#input-form {
+    display: flex;
+}
